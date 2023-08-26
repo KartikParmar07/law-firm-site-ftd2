@@ -1,0 +1,28 @@
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links {
+  gap: 40px;
+}
+
+.links a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 0 20px;
+}
+
+.btn {
+  padding: 15px 40px;
+  border: 1px solid white;
+  color: white;
+  background-color: #111111;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
