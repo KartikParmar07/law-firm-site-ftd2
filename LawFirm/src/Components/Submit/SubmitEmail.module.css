@@ -33,21 +33,12 @@
   color: var(--color-white, #fff);
 }
 
-button[type="submit"] {
+.btn{
   position: relative;
   bottom: 80px;
   left: 300px;
   width: 137px;
   height: 62px;
-  flex-shrink: 0;
-  border-radius: 43px;
-  background: var(--color-primary);
-  cursor: pointer;
-  color: #000;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
 }
 
 button[type="submit"]:hover {

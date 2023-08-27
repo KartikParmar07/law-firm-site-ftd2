@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Hero.module.css";
 import { ReactComponent as HeroImg } from "../../Assets/HeroImg.svg";
 import SubmitEmail from "../Submit/SubmitEmail";
+import Content from "../Text/Content";
 
 const Hero = () => {
   return (
@@ -12,17 +13,14 @@ const Hero = () => {
           <span className={style.line2}>Fight them Alone.</span>
         </div>
         <div>
-          <span className={style.para}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
-              curabitur sodales conubia ut inceptos faucibus himenaeos tortor
-              eget, hac massa gravida arcu interdum proin curae.
-            </p>
-          </span>
+          <Content
+            para={`Lorem ipsum dolor sit amet consectetur adipiscing elit blandit, 
+            curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget, 
+            hac massa gravida arcu interdum proin curae.`}
+          />
         </div>
         <div>
-            <SubmitEmail />
-            
+          <SubmitEmail />
         </div>
       </div>
 

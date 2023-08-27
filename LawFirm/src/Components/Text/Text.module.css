@@ -1,0 +1,29 @@
+.heading {
+    font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 161.523%; /* 87.222px */
+  }
+  
+  .heading3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 100% */
+  }
+
+  .para {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 0.3;
+  }
+
+  .para2 {
+    font-size: 14px;
+font-style: normal;
+font-weight: 500;
+opacity: 0.3;
+line-height: 162.523%;
+  }
+

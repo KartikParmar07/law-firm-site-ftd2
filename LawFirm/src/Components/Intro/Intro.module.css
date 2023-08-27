@@ -1,0 +1,41 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  gap: 100px;
+  /* border: white 1px solid; */
+}
+
+.part1 {
+  width: 50%;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 161.523%; /* 87.222px */
+}
+
+.part2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.heading2 {
+  width: 100%;
+  text-align: left;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+.line {
+  width: 1px;
+  height: 206px;
+  background: #6a6a6a;
+}

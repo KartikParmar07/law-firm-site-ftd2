@@ -33,6 +33,20 @@ body{
 .heroWrapper{
   background-color: #111111;
   height: 100vh;
-  padding-left: 150px; 
-  padding-right: 150px;
+  padding-left: 200px; 
+  padding-right: 200px;
+}
+
+.contentWrapper{
+  padding-left: 200px; 
+  padding-right: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.designWrap{
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
 }
