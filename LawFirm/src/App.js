@@ -3,6 +3,8 @@ import Hero from './Components/Hero.jsx/Hero';
 import ImgGrid from './Components/ImgGrid/ImgGrid';
 import Intro from './Components/Intro/Intro';
 import Navbar from './Components/Navbar/Navbar';
+import Team from './Components/Team/Team';
+import Testimonials from './Components/Testimonials/Testimonials';
 import WhyUs from './Components/WhyUs/WhyUs';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Intro />
         <WhyUs />
         <ImgGrid />
+        <Testimonials />
+        <Team />
       </div>
     </div>
   );

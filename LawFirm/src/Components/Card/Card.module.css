@@ -12,3 +12,35 @@
     padding: 24px;
     gap: 20px;
 }
+
+.tmCardimg{
+    width: 105px;
+height: 102px;
+flex-shrink: 0;
+border-radius: 105px;
+background: lightgray 50% / cover 
+}
+
+.teamCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+    column-gap: 10px;
+}
+
+.teamCardimg{
+    width: 68px;
+height: 68px;
+border-radius: 68px;
+background: lightgray 50% / cover no-repeat;
+}
+
+.title{
+    /* height: 15px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 6px; */
+}

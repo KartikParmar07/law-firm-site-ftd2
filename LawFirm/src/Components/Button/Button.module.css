@@ -24,3 +24,41 @@ height: 43px;
     font-style: normal;
     font-weight: 600;
   }
+
+  .btn1{
+    width: 137px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    background: var(--color-primary);
+    cursor: pointer;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .btnleft{
+    width: 90.612px;
+height: 90.612px;
+    border-radius: 43px;
+    background: var(--color-white);
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .btnright{
+    width: 90.612px;
+height: 90.612px;
+    border-radius: 43px;
+    background: var(--color-primary);
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }

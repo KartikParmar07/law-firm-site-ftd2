@@ -1,0 +1,33 @@
+.containWrap{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: auto;
+    gap: 104px;
+}
+
+.contain1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header{
+    width: 40%;
+}
+
+.carouselNav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    gap: 18.75px;
+}
+
+.contain2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
