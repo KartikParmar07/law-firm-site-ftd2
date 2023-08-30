@@ -1,0 +1,27 @@
+.faqWrap{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.contain1{
+    width: 50%;
+}
+
+.faqTitle{
+    width: 80%;
+}
+
+.contain2{
+    padding: 100px 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.accordionWrap{
+    width: 100%;
+}
