@@ -30,22 +30,26 @@ body{
   width: auto !important;
 }
 
+.designWrap{
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
 .heroWrapper{
   background-color: #111111;
   height:auto;
   padding-left: 200px; 
   padding-right: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* row-gap: 60px; */
 }
 
 .contentWrapper{
   padding-left: 200px; 
   padding-right: 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 250px;
-}
-
-.designWrap{
   display: flex;
   flex-direction: column;
   gap: 200px;

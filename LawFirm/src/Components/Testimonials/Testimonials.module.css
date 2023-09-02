@@ -31,3 +31,7 @@
     flex-direction: row;
     gap: 30px;
 }
+
+.cardContain{
+    width: 100px;
+}

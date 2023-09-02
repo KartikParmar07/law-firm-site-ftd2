@@ -12,7 +12,7 @@
   width: 50%;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .line1 {

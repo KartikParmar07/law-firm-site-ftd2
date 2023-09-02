@@ -46,11 +46,11 @@ button[type="submit"]:hover {
 }
 
 ::placeholder {
-    color: var(--color-white, #FFF);
-    text-align: center;
-    font-family: Inter;
+  position: relative;
+    text-align: left;
+    left: 80px;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 162.523%; /* 26.004px */
+    color: gray;
   }

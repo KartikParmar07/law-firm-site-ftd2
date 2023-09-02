@@ -15,7 +15,7 @@ const Card = (prop) => {
       ) : (
         <Icon />
       )}
-
+    <div className={style.contentBox}>
       {prop.type==="team"? 
       <div className={style.title}>
         <Heading3 text={prop.text} />
@@ -25,7 +25,7 @@ const Card = (prop) => {
       <>
       <Heading3 text={prop.text} />
       {prop.type === "testimonial" ? <h5>{prop.designation}</h5> : ""}
-      <Content2 para={prop.para} />
+      <p>{prop.para}</p> 
       {prop.type === "testimonial" ? (
         ""
       ) : prop.type === "team" ? (
@@ -36,8 +36,7 @@ const Card = (prop) => {
       </>
       }
 
-      
-
+    </div>  
     </div>
   );
 };

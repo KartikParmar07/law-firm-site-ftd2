@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className={style.hero}>
       <div className={style.part1}>
-        <div>
+        <div className={style.contentWrap}>
           <span className={style.line1}>You don’t have to </span>
           <span className={style.line2}>Fight them Alone.</span>
         </div>

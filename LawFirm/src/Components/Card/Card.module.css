@@ -1,5 +1,4 @@
 .card{
-    width: 100%;
     width: auto;
     height: auto;
     border-radius: 14px;
@@ -43,4 +42,12 @@ background: lightgray 50% / cover no-repeat;
     justify-content: center;
     align-items: flex-start;
     /* gap: 6px; */
+}
+
+.contentBox{
+    /* height: 200px;
+    width: 40%;
+    border:1px solid white ;
+    /* overflow: scroll; */
+    display: inline-block;
 }
